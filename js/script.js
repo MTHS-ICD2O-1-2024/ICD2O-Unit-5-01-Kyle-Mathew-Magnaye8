@@ -4,13 +4,13 @@
 // Created on: Apr 2025
 // This file contains the JS functions for index.html
 
-const randomNumber = Math.floor(Math.random() * 6) +1
+const randomNumber = Math.floor(Math.random() * 6) + 1
 
 /**
  * This function checks if the user has selected the random number from above
  */
-//es-lint-disable-naxt-line no-unused-vars
-function checkNumber () {
+// eslint-disable-next-line no-unused-vars
+function checkNumber() {
   // input
   const userNumber = parseInt(document.getElementById('user-number').value)
 
