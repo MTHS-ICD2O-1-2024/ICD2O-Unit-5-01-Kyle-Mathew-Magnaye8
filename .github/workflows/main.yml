@@ -27,4 +27,4 @@ jobs:
           VALIDATE_PHP_BUILTIN: true
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          LOG_LEVEL: DEBUG 
